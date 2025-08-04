@@ -15,7 +15,7 @@
     {
       packages.${system}.consul-cni = pkgs.stdenv.mkDerivation rec {
         pname = "consul-cni";
-        version = "1.8.0";
+        version = "1.7.3";
 
         src = pkgs.fetchurl {
           url = "https://releases.hashicorp.com/consul-cni/${version}/consul-cni_${version}_linux_amd64.zip";
