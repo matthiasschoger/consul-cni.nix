@@ -19,7 +19,7 @@
 
         src = pkgs.fetchurl {
           url = "https://releases.hashicorp.com/consul-cni/${version}/consul-cni_${version}_linux_amd64.zip";
-#          sha256 = "1b8acgir88halh1pszwgd8x7a08qdr3xph7pgp0401skshcr9kch";
+          sha256 = "ddcaa91f652f7b6476f296378635244b64e189f7bb0291ab313d0ba7e837e573";
         };
         sourceRoot = ".";
 
